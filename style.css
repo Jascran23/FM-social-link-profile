@@ -1,0 +1,96 @@
+/*
+- Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+html,body{
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  hsl(0, 0%, 8%);
+    font-size: 14px;
+}
+
+.container{
+    width: 350px;
+    background:  hsl(0, 0%, 12%);
+    height: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.container-avatar img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+.container-avatar h2{
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+}
+
+
+.container-avatar-adress{
+    margin-top: 5px;
+    color: hsl(75, 94%, 57%);
+}
+
+.container-avatar-descricao{
+    font-weight: 400;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.container-buttons{
+    margin-top: 18px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 0;
+    background: hsl(0, 0%, 20%);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    transition-duration: 0.2s;
+    color: hsl(0, 0%, 20%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: none;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

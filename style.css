@@ -47,6 +47,7 @@ main{
 .container-avatar h2{
     color: hsl(0, 0%, 100%);
     margin-top: 10px;
+    font-size: 25px;
 }
 
 

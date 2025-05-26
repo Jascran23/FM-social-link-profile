@@ -16,7 +16,7 @@
 }
 
 html,body{
-    height: 100vh;
+    height: 100%;
 }
 
 main{
@@ -94,4 +94,10 @@ button:hover{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width:375px){
+    .container{
+        width: 90%;
+    }
 }

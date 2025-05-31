@@ -101,3 +101,10 @@ button:hover{
         width: 90%;
     }
 }
+
+@media screen and (max-height:480px){
+    main{
+        height: auto;
+        padding: 20px;
+    }
+}
